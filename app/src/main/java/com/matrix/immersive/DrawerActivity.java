@@ -15,6 +15,11 @@ import com.google.android.material.internal.NavigationMenuView;
 import com.google.android.material.navigation.NavigationView;
 import com.matrix.immersive.utils.ImmersiveUtil;
 
+/**
+ * <p> 描述：抽屉状态栏全透明</p>
+ * <p> 作者：xc</p>
+ * <p> 时间：2020/04/09 17:49</p>
+ */
 public class DrawerActivity extends AppCompatActivity {
 
     private View mRootView;
