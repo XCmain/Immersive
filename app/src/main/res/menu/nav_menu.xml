@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+
+        <item
+            android:id="@+id/nav_vip"
+            android:icon="@drawable/ic_debug"
+            android:title="调试" />
+
+        <item
+            android:id="@+id/nav_technology_service"
+            android:icon="@drawable/ic_technology_service"
+            android:title="技术服务" />
+
+        <item
+            android:id="@+id/nav_panel"
+            android:icon="@drawable/ic_panel"
+            android:title="数据面板" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item android:title="调试" >
+            <menu>
+                <item
+                    android:icon="@drawable/ic_technology_service"
+                    android:title="技术服务2" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_technology_service1"
+            android:icon="@drawable/ic_technology_service"
+            android:title="技术服务" />
+
+        <item
+            android:id="@+id/nav_panel1"
+            android:icon="@drawable/ic_panel"
+            android:title="数据面板" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item android:title="调试" >
+            <menu>
+                <item
+                    android:icon="@drawable/ic_technology_service"
+                    android:title="技术服务3" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_technology_service2"
+            android:icon="@drawable/ic_technology_service"
+            android:title="技术服务2" />
+
+        <item
+            android:id="@+id/nav_panel2"
+            android:icon="@drawable/ic_panel"
+            android:title="数据面板2" />
+    </group>
+
+</menu>

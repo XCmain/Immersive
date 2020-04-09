@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/ic_home_common"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/tab_classification"
+        android:icon="@drawable/ic_classification_common"
+        android:title="分类" />
+
+    <item
+        android:id="@+id/tab_case"
+        android:icon="@drawable/ic_case_common"
+        android:title="案例" />
+
+    <item
+        android:id="@+id/tab_setting"
+        android:icon="@drawable/ic_setting_common"
+        android:title="设置" />
+
+</menu>
